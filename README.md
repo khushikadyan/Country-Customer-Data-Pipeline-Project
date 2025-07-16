@@ -64,14 +64,14 @@ This project implements two automated data pipelines:
 ---
 
 ## How It Works
-# Country Data Pipeline
+### Country Data Pipeline
 1. Scheduled to run at 12:00 AM and 12:00 PM IST daily.
 2. For each country:
    - Calls REST API endpoint
    - Saves response as JSON
    - Updates existing files with new data
 
-# Customer-Product Pipeline
+### Customer-Product Pipeline
 1. Main Pipeline:
    - Generates random customer count (400–700)
    - Triggers customer data transfer when count > 500
@@ -82,12 +82,12 @@ This project implements two automated data pipelines:
    - Activates when count > 600
    - Simulates product data transfer
 
-# Scheduling Mechanism
+## Scheduling Mechanism
 1. Uses Python schedule library
 2. Timezone-aware (IST by default)
 3. Self-healing with retry logic
 
-# Future Enhancements
+## Future Enhancements
 1. Add email/SMS alerts for failures
 2. Implement database integration
 3. Add data validation checks
