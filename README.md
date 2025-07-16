@@ -27,17 +27,17 @@ This project implements two automated data pipelines:
 
 ##  Project Structure
 
-| 📁 Folder/File               | 📝 Description                                         |
+|  Folder/File               |  Description                                         |
 | ---------------------------- | ------------------------------------------------------ |
 | `Celebal_Project/`           | **Main project root directory**                        |
-| ├── `country_data/`          | 🧾 Folder to store auto-created country JSON files     |
-| ├── `pipelines/`             | ⚙️ Contains all the data pipeline scripts              |
-| │ ├── `fetch_countries.py`   | 🌍 Fetches and stores data from the REST Countries API |
-| │ ├── `customer_pipeline.py` | 👥 Simulates customer data flow and triggers           |
-| │ └── `product_pipeline.py`  | 📦 Handles product data flow when conditions are met   |
-| ├── `scheduler.py`           | ⏰ Central scheduler to run pipelines at set times      |
-| ├── `pipeline.log`           | 📄 Stores logs for monitoring pipeline runs            |
-| └── `requirements.txt`       | 📦 Lists all required Python dependencies              |
+| ├── `country_data/`          |  Folder to store auto-created country JSON files     |
+| ├── `pipelines/`             |  Contains all the data pipeline scripts              |
+| │ ├── `fetch_countries.py`   |  Fetches and stores data from the REST Countries API |
+| │ ├── `customer_pipeline.py` |  Simulates customer data flow and triggers           |
+| │ └── `product_pipeline.py`  |  Handles product data flow when conditions are met   |
+| ├── `scheduler.py`           |  Central scheduler to run pipelines at set times      |
+| ├── `pipeline.log`           |  Stores logs for monitoring pipeline runs            |
+| └── `requirements.txt`       |  Lists all required Python dependencies              |
 
 
 
