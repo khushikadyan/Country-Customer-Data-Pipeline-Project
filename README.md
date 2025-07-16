@@ -36,7 +36,6 @@ This project implements two automated data pipelines:
 | │ ├── `customer_pipeline.py` |  Simulates customer data flow and triggers           |
 | │ └── `product_pipeline.py`  |  Handles product data flow when conditions are met   |
 | ├── `scheduler.py`           |  Central scheduler to run pipelines at set times      |
-| ├── `pipeline.log`           |  Stores logs for monitoring pipeline runs            |
 | └── `requirements.txt`       |  Lists all required Python dependencies              |
 
 
