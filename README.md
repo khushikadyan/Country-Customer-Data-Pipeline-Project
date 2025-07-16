@@ -26,15 +26,7 @@ This project implements two automated data pipelines:
 ---
 
 ##  Project Structure
-Celebal_Project/
-├── country_data/ # Auto-created folder for country JSONs
-├── pipelines/
-│ ├── fetch_countries.py # Country data fetcher
-│ ├── customer_pipeline.py # Main customer pipeline
-│ └── product_pipeline.py # Child product pipeline
-├── scheduler.py # Central scheduler
-├── pipeline.log # Automated logs
-└── requirements.txt # Python dependencies
+<pre> Celebal_Project/ ├── country_data/ # Auto-created folder for country JSONs ├── pipelines/ │ ├── fetch_countries.py # Country data fetcher │ ├── customer_pipeline.py # Main customer pipeline │ └── product_pipeline.py # Child product pipeline ├── scheduler.py # Central scheduler ├── pipeline.log # Automated logs └── requirements.txt # Python dependencies </pre>
 
 ##  Installation & Setup
 
